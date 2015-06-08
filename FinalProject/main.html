@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TO-DO list</title>
+    <link href = "mainstyle.css" rel = "stylesheet">
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body onload="load()">
+<div class="stitched">
+<b>Create you're own to-do list</b>
+<table>
+    <tr>
+        <td>What do we need to do?</td>
+        <td><input type="text" id="what"></td>
+    </tr>
+    <tr>
+        <td>When do we need to do it?</td>
+        <td><input type="text" id="when">
+        <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</div>
+<div class ="mydata">
+<table id ="myTable" class = "table"  border="1" cellpadding="2">
+    <tr>
+        <td>&nbsp;</td>
+        <td><b>What we need to do.</b></td>
+        <td><b>When we need to do it.</b></td>
+    </tr>
+</table>
+&nbsp;
+</div>
+
+<form action = "logout.php" method = "post">
+	<div class = "Logout"><input type = "submit" name = "submit" value = "Log Out"></div>	
+</body>
+</html>
+
+
+
