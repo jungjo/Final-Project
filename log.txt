@@ -1,0 +1,11 @@
+Start: 6/3/15 9:00am EST
+End: 6/3/15 2:28pm EST
+Tasks: Started and finished a few login details
+
+Start: 6/5/15 2:28pm EST
+End: 6/5/15 6:35pm EST
+Tasks: Worked on and finished registration.php
+
+Start: 6/7/15 4:35pm EST
+End: 6/7/15 12:20pm EST
+Tasks: Finished the project and turning it in
